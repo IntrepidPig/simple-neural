@@ -1,0 +1,15 @@
+[package]
+name = "neural"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.57"
+ndarray = { version = "0.15.4", features = ["serde-1"] }
+rand = { version = "0.8.5", features = ["serde1"] }
+rand_chacha = { version = "0.3.1", features = ["serde1"] }
+serde = { version = "1.0.137", features = ["derive"] }
+serde_json = "1.0.81"
+structopt = "0.3.26"
